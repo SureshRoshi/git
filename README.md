@@ -3,21 +3,26 @@
 ```bash
 git init
 ```
-````bash
+
+```bash
 git add .
 ```
-````bash
+
+```bash
 git commit -m "first commit"
 ```
-````bash
+
+```bash
 git branch -M main
 ```
-````bash
+
+```bash
 git remote add origin -- github repo link --
 ```
-````bash
+
+```bash
 git push -u origin main
-`````
+```
 
 # Push an existing repository from the command line
 
@@ -29,10 +34,10 @@ git remote add origin -- github repo link --
 
 ### if github repo is added to folder, directly execute these
 
-`````bash
+```bash
 git branch -M main
 ```
-````bash
+
+```bash
 git push -u origin main
 ```
-`````
