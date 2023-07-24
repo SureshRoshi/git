@@ -1,7 +1,6 @@
 # Create a new repository on the command line
 
 ```bash
-echo "# git" >> README.md
 git init
 git add .
 git commit -m "first commit"
