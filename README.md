@@ -1,6 +1,6 @@
 # Create a new repository on the command line
 
-`````bash
+```bash
 git init
 ```
 ````bash
