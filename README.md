@@ -41,3 +41,17 @@ git branch -M main
 ```bash
 git push -u origin main
 ```
+
+# Update the changes to an existing repository from the command line
+
+```bash
+git add .
+```
+
+```bash
+git commit -m "updated commit name"
+```
+
+```bash
+git push
+```
