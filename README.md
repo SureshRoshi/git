@@ -39,6 +39,14 @@ git branch -M main
 ```
 
 ```bash
+git add .
+```
+
+```bash
+git commit -m "updated commit name"
+```
+
+```bash
 git push -u origin main
 ```
 
