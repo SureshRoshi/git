@@ -138,6 +138,8 @@ git stash drop stash@{n} # Replace n with the stash number you want to delete.
 git stash clear
 ```
 
+---
+
 ## Branching
 
 1. **List all branches**:
@@ -186,6 +188,8 @@ git push origin --delete branch_name
 
 **Caution**: Using `-D` to forcefully delete a branch will discard all the commits in that branch which haven't been merged. Always double-check before using this command to ensure you don't lose any important changes.
 
+---
+
 ## Merging
 
 1. **Merge another branch into your active branch**:
@@ -211,6 +215,8 @@ git commit
 ```bash
 git merge --abort
 ```
+
+---
 
 ## Other Useful Commands
 
@@ -246,3 +252,5 @@ git log --graph --oneline --all
 
 - `--oneline` condenses each commit to a single line which makes it easier to browse through when combined with the graph.
 - `--all` shows all references (i.e., all branches, tags, etc.).
+
+---
