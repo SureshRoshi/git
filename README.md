@@ -149,6 +149,30 @@
 
 ---
 
+## Listing Merged and Unmerged Branches:
+
+When working with multiple branches, it can be useful to know which branches have already been merged into the current branch and which have not. This helps in managing branches, cleaning up merged branches, and avoiding redundant work.
+
+1. **List branches that have been merged**:
+
+   ```bash
+   git branch --merged
+   ```
+
+2. **List branches that have NOT been merged**:
+
+   ```bash
+   git branch --no-merged
+   ```
+
+3. **Shows all branches (local and remote) that have been merged into the current branch**:
+
+   ```bash
+   git branch -a --merged
+   ```
+
+---
+
 ## Stashing Changes
 
 1. **Stash your changes**:
