@@ -1,3 +1,7 @@
+## Git Command-Line Essentials
+
+---
+
 ## Git Configuration
 
 1. **Checking the git configuration**:
